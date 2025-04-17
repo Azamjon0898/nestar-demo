@@ -9,6 +9,7 @@ import Filter from "@/libs/components/property/Filter";
 const PropertyList: NextPage = () => {
   const [properties, setProperties] = useState<number[]>([1, 2, 3, 4, 5, 6]);
 
+  console.log("properties:", properties);
   return (
     <div id={"property-list-page"} style={{ position: "relative" }}>
       <Stack className={"container"}>

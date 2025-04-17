@@ -5,10 +5,8 @@ import WestIcon from "@mui/icons-material/West";
 import EastIcon from "@mui/icons-material/East";
 import TopPropertyCard from "./TopPropertyCard";
 
-const TopProperties = () => {
-  const [topProperties, setTopProperties] = useState<number[]>([
-    1, 2, 3, 4, 5, 6, 7,
-  ]);
+const TopProperties = ({ initialInput, ...props }: any) => {
+  const [topProperties, setTopProperties] =   useState<number[]>([1, 2, 3, 4, 5, 6, 7]);
 
   return (
     <Stack className={"top-properties"}>
@@ -53,8 +51,8 @@ const TopProperties = () => {
   );
 };
 
-// TopProperties.defaultProps = {
-//   initialInput: [1, 2, 3, 4, 5, 6, 7],
-// };
+TopProperties.defaultProps = {
+  initialInput: [1, 2, 3, 4, 5, 6, 7],
+};
 
 export default TopProperties;
