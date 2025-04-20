@@ -5,7 +5,8 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import TopAgentsCard from "./TopAgentsCard";
 
 const TopAgents = ({ initialInput, ...props }: any) => {
-  const [topAgents, setTopAgents] =   useState<number[]>([1, 2, 3, 4, 5, 6, 7]);
+  const [topAgents, setTopAgents] = useState<number[]>([1, 2, 3, 4, 5, 6, 7]);
+
   return (
     <Stack className={"top-agents"}>
       <Stack className={"container"}>

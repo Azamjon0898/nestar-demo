@@ -15,7 +15,7 @@ const TopAgentsCard = () => {
         }}
       ></Box>
 
-      <strong>Swetlana</strong>
+      <strong>Suzy</strong>
       <span>Agent</span>
     </Stack>
   );

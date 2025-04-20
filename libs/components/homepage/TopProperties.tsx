@@ -6,7 +6,7 @@ import EastIcon from "@mui/icons-material/East";
 import TopPropertyCard from "./TopPropertyCard";
 
 const TopProperties = ({ initialInput, ...props }: any) => {
-  const [topProperties, setTopProperties] =   useState<number[]>([1, 2, 3, 4, 5, 6, 7]);
+  const [topProperties, setTopProperties] = useState<number[]>([1, 2, 3, 4, 5, 6, 7]);
 
   return (
     <Stack className={"top-properties"}>
